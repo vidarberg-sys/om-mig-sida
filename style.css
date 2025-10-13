@@ -1,0 +1,129 @@
+body {
+  background-color: rgb(85, 154, 40);
+}
+
+
+
+.titel {
+  font-size: 200%;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top : 5%;
+}
+
+.konstnär {
+  display: block;
+  border-radius: 20px;
+  width: 20%;
+  height: 20%;
+  border: 7px solid #032b06;
+}
+
+.TVänster {
+  margin-left:1% ;
+  margin-right: 40px;
+}
+
+.bild-titel {
+  font-size: 150%;
+  margin-left: 25.5%;
+  margin-top: 4%;
+  text-decoration: underline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bild-text {
+  font-size: 150%;
+  border: 5px solid #032b06;
+  width: 100%;;
+  margin-left: 0.5%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.THöger {
+  margin-right:0.5% ;
+  margin-left: 4%;
+}
+
+.elementBB {
+  width: 8%;
+  height: 16.5%;
+  background-image: url("157DFFCC-0981-45F4-9D5C-F4063C637C26.jpg");
+  background-size: cover;   
+  background-position: center; 
+  border: 5px solid #032b06;
+  border-radius: 50%;
+  left:46%;
+  margin-top: 2%;
+  position: absolute;
+}
+
+.navbar {
+  background-color: #15671c;
+  padding: 15px 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.nav { 
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-size: 150%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.länktar:hover {
+  color : yellow;
+  text-decoration:underline;
+}
+
+.current {
+  font-weight: bold;
+  text-decoration: underline;
+ 
+}
+
+.länktar {
+  color: black;
+  text-decoration: underline;
+}
+
+.konst {
+  display: block;
+  border-radius: 20px;
+  border: 7px solid #032b06;
+  margin-top: 5%;
+}
+
+.vänster {
+  float: left;
+  width: 20%;
+  margin-left:3%;
+}
+
+.Cvänster {
+  float: left;
+  width: 20%;
+  margin-left:3%;
+}
+.Chöger {
+  float: left;
+  width: 20%;
+  margin-left:3%;
+}
+.höger {
+  float: left;
+  width: 20%;
+  margin-left:3%;
+}
+
+.låda {
+  display: flex;
+}
